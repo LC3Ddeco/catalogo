@@ -1,0 +1,22 @@
+  <div class="card-container m-2">
+    <div
+      class="card card-flip"
+      [class.is-flipped]="toggleCard"
+      (click)="flipCard()"
+    >
+      <div class="card-front">
+        <img [ngSrc]="data.img" class="card-img-top" [alt]="data.name"  width="300" height="400"/>
+      </div>
+      <div class="card-back">
+        <div class="card-content">
+          <h5>Información</h5>
+          <ul>
+            @for (item of data.list; track $index) {
+              <li [innerHTML]="item"></li>
+            }
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
