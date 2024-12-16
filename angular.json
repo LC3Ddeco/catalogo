@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "navidadTarjetas": {
+    "Catalogo": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -70,10 +70,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "buildTarget": "navidadTarjetas:build:production"
+              "buildTarget": "Catalogo:build:production"
             },
             "development": {
-              "buildTarget": "navidadTarjetas:build:development"
+              "buildTarget": "Catalogo:build:development"
             }
           },
           "defaultConfiguration": "development"
