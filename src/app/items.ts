@@ -8,7 +8,8 @@ export const ITEMS: Card[] = [
     name: 'Rueda',
     img: prefix + 'rueda.jpg',
     list: ['Rueda de madera', '200 lukas'],
-    category: 'Laser',
+    category: ['Laser','Cartas'],
+    price: 28000
   },
   {
     name: 'Rueda',
